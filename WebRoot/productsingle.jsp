@@ -692,4 +692,4 @@
 
 
 </html>
-
+<script data-main="<%=basePath %>/js/index.js" data-start="<%=basePath %>/js/product/productsingle" src="<%=basePath %>/js/lib/require.js"></script>
