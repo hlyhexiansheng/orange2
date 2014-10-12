@@ -1,0 +1,428 @@
+@charset "utf-8";
+/* CSS Document */
+.headerTopArea{
+	background-color:#E7E7E7;
+	height:30px;
+	width:auto;
+	padding:0px;
+	margin:0px;
+}
+.headerTopArea .headerTop{
+	background-color:#800;
+	width:1200px;
+	height:30px;
+	margin:0 auto;	
+}
+.headerTop .headerTopLeft{
+	background-color:#0F0;
+	min-width:480px;
+	height:30px;
+	float:left;
+}
+.headerTop .headerTopRight{
+	background-color:#034;
+	min-width:480px;
+	height:30px;
+	float:right;
+}
+.mainNavBox{
+	height:100px;
+	width:1200px;
+	margin:0 auto;		
+}
+.mainNavBox .mainNav{
+	
+}
+.mainNavBox .mainNav .mainNavList{
+	
+}
+
+.mainNavBox .mainNav .mainNavList span{
+	
+}
+
+.danpinBox{
+	width:1200px;
+	margin:0 auto;	
+}
+
+.productCategoryBox{
+	height:30px;
+	width:1200px;
+	margin:0 auto;
+	color:#9D9D9D;
+	border-bottom: 1px solid #ccc;
+}
+.danpinArea{
+	height:auto;
+	margin:0 auto;
+}
+.danpinArea .danpinLeft{
+	width: 495px;
+	height: auto;
+	float: left;
+}
+.danpinArea .danpinLeft .danpinLeft_picList{	
+	width: 72px;
+	height: auto;
+	float: left;
+	position: relative;
+	display: inline;
+}
+.smallImage span{
+	width:70px; height:70px; display: inline-block;
+}
+.smallImage li{
+	width:70px; height:70px; margin-top:11px;border: 1px solid #B4B4B4;
+}
+
+.danpinArea .danpinLeft .danpinLeft_picCenter{	
+	width: 400px;
+	float: left;
+	margin-left: 20px;
+	display: inline;
+}
+.danpinLeft_picCenter{
+	width: 400px;
+	float: left;
+	margin-left: 20px;
+	display: inline;
+}
+
+.danpinLeft_picCenter .bigImage{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	margin-top: 10px;	
+}
+#bigImage{
+	width:400px;
+	height:400px;	
+}	
+
+.danpinArea .danpinRight{
+	display: inline;
+	float: right;
+	width: 689px;
+	overflow: hidden;	
+}
+
+.similarTermsBox{
+	
+}
+
+.similarTermsBox .similarTermsList{
+	border-bottom:solid 1px;
+	border-top:solid 1px;
+	border-color:#CCC;
+}
+
+.similarTermsBox .similarTermsList .similarTermsListSingle-normal{
+	display:inline-block;
+	overflow:hidden;
+	height:120px;
+	width:120px;
+	border: solid 1px;
+	border-color: cornsilk;
+	cursor: pointer;	
+}
+
+.similarTermsBox .similarTermsList .similarTermsListSingle-selected{
+	display:inline-block;
+	overflow:hidden;
+	height:120px;
+	width:120px;
+	border: solid 1px;
+	border-color: #00FF00;
+	cursor: pointer;	
+}
+
+.similarTermsBox .similarTermsList .similarTermsListSingle-mouseOver{
+	display:inline-block;
+	overflow:hidden;
+	height:120px;
+	width:120px;
+	border: solid 1px;
+	border-color: #0000FF;
+	cursor: pointer;	
+}
+
+.danpinArea .danpinRight .normalInfo{
+	margin-top:10px;
+}
+.danpinArea .danpinRight .normalInfo .priceBox{
+	color:#A10000;
+}
+
+.selectAreaColorSelectBox .colorTitle{
+
+}
+.selectAreaColorSelectBox .colorList{
+	display:table;	
+}
+.selectAreaColorSelectBox .colorList .colorListSingle{
+	display:inline-block;
+	height:30px;
+	width:30px;
+	cursor: pointer;
+}
+
+.colorListSingle .img-normal{
+	padding: 5px;
+	background-color: black;
+}
+
+.colorListSingle .img-selected{
+	padding: 5px;
+	background-color: blue;
+}
+.colorListSingle .img-mouseOver{
+	padding: 5px;
+	background-color: white;
+}
+
+.selectArea{
+	background-color:#F8F8F8;	
+}
+.selectAreaSizeSelectBox{
+	
+}
+.selectAreaSizeSelectBox .sizeList{
+	
+}
+
+.selectAreaSizeSelectBox .sizeList .sizeListSingle-normal{
+	background-color: #CCC7C7;
+	display: inline-block;
+	height: 23px;
+	width: 35px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 5px;
+	font-family: Helvetica;
+	cursor: pointer;
+}
+
+.selectAreaSizeSelectBox .sizeList .sizeListSingle-selected{
+	background-color:#0F0;
+	display: inline-block;
+	height: 23px;
+	width: 35px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 5px;
+	font-family: Helvetica;
+	cursor: pointer;
+}
+
+.selectAreaSizeSelectBox .sizeList .sizeListSingle-mouseOver{
+	background-color:#0FF;
+	display: inline-block;
+	height: 23px;
+	width: 35px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 5px;
+	font-family: Helvetica;
+	cursor: pointer;
+}
+
+
+
+
+.selectAreaNumSelectBox{
+	
+}
+
+.selectAreaNumSelectBox select{
+	width:53px;
+	margin-top:-2px;
+}
+.selectAreaSelectedBox{
+	
+}
+.selectAreaBtnBuy{
+	float: left;
+	width: 201px;
+}
+
+.selectAreaBtnBuy .btnBuy {
+	display: inline-block;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: bold;
+	height: 50px;
+	width: 135px;
+	line-height: 46px;
+	margin-right: 10px;
+	padding-left: 66px;
+	background: url(spritesheet.png) no-repeat scroll -975px -350px #B80808;
+}
+.btnBuy:link, .btnBuy:visited, .btnBuy:hover {
+	color: #FFFFFF;
+}
+
+.infoDetail-recommend-box{
+	margin:0 auto;
+	width: 1200px;  /*居中*/	
+}
+
+.recommendArea{
+	width:200px;
+	float:left;
+	border: #D6D6D6 1px solid;
+}
+
+.recommendArea .title h3{
+	width: 198px;
+	height: 27px;
+	line-height: 27px;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	border: solid 1px;
+	border-top:0px;
+	border-color: #CCCCCC;
+	background-color: #DFDCDC;
+	margin-top: 0px;
+}
+
+.recommendArea .recommendList{
+	
+}
+
+.recommendArea .recommendList .recommendListSingle{
+	margin-top: 35px;		
+}
+
+.recommendArea .recommendList .recommendListSingle img{
+	margin:0 auto;
+	width:130px;
+	display: block;			
+}
+
+.infonDetailArea{
+	float:right;
+	width: 980px;			
+}
+.infonDetailArea .titleNavList .liSelected{
+	float: left;
+	text-align: center;
+	height: 32px;
+	width: 148px;
+	margin-right: 3px;
+	background-color: #81011E;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	line-height: 32px;
+	border: solid 1px;
+	border-color: #D6D6D6;
+	border-bottom: 0px;
+	border-left:0px;
+	display: inline;
+}
+
+.infonDetailArea .titleNavList .liNormal{
+	float: left;
+	text-align: center;
+	height: 32px;
+	width: 148px;
+	margin-right: 3px;
+	background-color: #F6F6F6;
+	font-size: 12px;
+	color: #777777;
+	font-weight: bold;
+	line-height: 32px;
+	border: solid 1px;
+	border-color: #D6D6D6;
+	border-bottom: 0px;
+	display: inline;
+}
+.infonDetailArea .titleNavList{
+	border-bottom:#6f0019 3px solid;
+	height:33px;	
+}
+
+
+.infoBox {
+	
+}
+
+.infoBox .productDetailArea{
+	
+}
+
+.infoBox .productDetailArea h3{
+	color: #999999;
+	font-weight: bold;
+	position: relative;
+	width: 748px;
+	font-size:13px;
+	display: block;
+}
+
+.infoBox .productDetailArea .productMS{
+	color:#666;
+	border-bottom: 1px dotted #999;
+	padding-bottom: 25px;	
+}
+
+.infoBox .productDetailArea .spriteWashings {
+	background-image:url(washspritesheet.png); 
+	width: 60px;
+	height: 80px;
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.infoBox .productDetailArea .sizeTable{
+	color: #999;
+}
+.infoBox .productDetailArea .sizeTable table{
+	margin: 0 auto;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;	
+}
+.infoBox .productDetailArea .sizeTable td{
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #e4e4e4;	
+}
+
+.footerBox{
+	margin: 0 auto;
+	width:1200px;
+}
+
+.footerBox .footer {
+	width: 1198px;
+	height: 120px;
+	border: 1px solid #ddd;
+}
+
+.footerBox .footer .helpCol01{
+	float:left;
+	width: 117px;
+	margin-left: 51px;	
+}
+.footerBox .footer ul{
+	margin: 0;
+	padding: 0;
+}
+.footerBox .footer li{
+	line-height: 18px;
+	text-indent: 8px;
+}
+
+.footerBox .footer h3{
+	color: #333;
+	font-weight: bold;
+	font-size:14px;
+	border-left: 3px solid #a10000;
+	text-indent: 4px;
+}
+
+

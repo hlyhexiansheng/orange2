@@ -1,0 +1,103 @@
+@charset "utf-8";
+body{
+	padding:0px;
+	margin:0px;
+	font-size: 13px;
+}
+div {
+	display: block;
+}
+ul{
+	margin:0;
+	padding:0;	
+}
+li{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.blank_0{
+	height:0px;	
+	display:block;
+	overflow:hidden;
+}
+.blank_5{
+	height:5px;	
+	display:block;
+	overflow:hidden;
+}
+.blank_10{
+	height:10px;	
+	display:block;
+	overflow:hidden;
+}
+.blank_15{
+	height:15px;
+	display:block;
+	overflow:hidden;
+}
+.blank_20{
+	height:20px;
+	display:block;
+	overflow:hidden;
+}
+
+.blank_25{
+	height:25px;
+	display:block;
+	overflow:hidden;
+}
+.blank_30{
+	height:30px;
+	display:block;
+	overflow:hidden;
+}
+
+.blank_40{
+	height:40px;
+	display:block;
+	overflow:hidden;
+}
+
+.blank_50{
+	height:50px;
+	display:block;
+	overflow:hidden;
+	clear:both;
+}
+
+a:link{
+	text-decoration:none;
+	color: #333;
+}
+a:visited {
+	color: #333;
+	text-decoration: none;
+}
+a:hover{ /* a:hover必须定义在a:link何a:visited之后才有效果*/
+	color:#a10000;
+	text-decoration:none;
+}
+strong{
+	font-size:24px;
+	font-family: Tahoma;
+	font-weight: normal;	
+}
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+
